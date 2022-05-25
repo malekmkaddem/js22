@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Homework2Part2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Homework display.">
+    <link rel="stylesheet" href="homework.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" />
+    <script defer src= "scriptHW2P2.js"></script>
+</head>
+
+<body>
+     <a id ="backhome" href="index.html">E.T , Home !</a>
+    <a href ="index.html"> <img alt="ET Go back home" id ="ET" src="E.T.png" width="80" height ="70"></a>
+     <a class="backToHomework2" href="homework2.html">Back To Homework 2</a>
+    
+    
+    <div id ="errormsg"></div>
+    <form action="" method="get" id ="form">
+    <h1>Play with numbers ... It's Free ! </h1>
+    <h3 id = errorMsg1></h3>
+    <h3 id = errorMsg2></h3>
+    <h3 id = errorMsg3></h3>
+    <br>
+        
+        <div>
+            <label for="input" id ="num1lbl">First Integer :</label>
+            <input type="text" id="firstNum">
+        </div>
+        <div>
+            <label for="input"  id ="num2lbl">Second Integer :</label>
+            <input type="text" id="secondNum">
+        </div>
+        <div>
+            <label for="input" id ="num3lbl">Third Integer :</label>
+            <input type="text" id="thirdNum">
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Find Out !">
+            <button type = "button" id = "clear">Clear</button>
+            
+        </div>
+    
+        
+        <label id ="lblsum" for="input">Sum:</label>
+        <br>
+        <br>
+        <label id ="lblaverage" for="input">Average:</label>
+        <br>
+        <br>
+        <label id ="lblproduct" for="input">Product:</label>
+        <br>
+        <br>
+        <label id ="lblmin" for="input">Smallest Number:</label>
+        <br>
+        <br>
+        <label id ="lblmax" for="input">Largest Number:</label>
+        
+        
+        
+    </form>
+  
+</body>
+</html>

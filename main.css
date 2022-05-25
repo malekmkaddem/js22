@@ -1,0 +1,303 @@
+/* the styles for the elements */
+
+* {
+
+margin: 0;
+
+padding: 0;
+
+}
+
+html {
+
+background-color: white;
+
+}
+
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 100%;
+
+width: 850px;
+
+margin: 0 auto;
+
+
+
+background-color: black;
+
+}
+
+a:focus, a:hover {
+
+font-style: italic;
+
+}
+
+/* the styles for the header */
+
+header {
+
+padding: 1.5em 0 2em 0;
+
+
+}
+
+#myVideo {
+ 
+
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+    
+}
+h1, h2, h3, h4 , p {
+    color: white;
+}
+
+header h2 {
+
+font-size: 175%;
+
+color:;
+
+}
+
+header h3 {
+
+font-size: 130%;
+
+font-style: italic;
+
+}
+
+header img {
+
+float: left;
+
+padding: 0 30px;
+
+}
+
+.shadow {
+
+text-shadow: 2px 2px 2px #darkslategrey;
+
+}
+
+/* the styles for the navigation menu */
+
+nav {
+
+clear: both;
+
+}
+
+nav ul {
+
+list-style: none;
+
+}
+
+nav ul li {
+
+float: left;
+
+}
+
+nav ul li a {
+
+text-align: center;
+
+display: block;
+
+width: 168px;
+
+padding: 1em 0;
+
+text-decoration: none;
+
+background-color: darkslategrey;
+
+color: white;
+
+font-weight: bold;
+
+border-right: 2px solid #fffded;
+
+}
+
+nav ul li a.lastitem {
+
+width: 170px;
+
+border-right: none;
+
+}
+
+nav ul li a.current {
+
+color: yellow;
+
+}
+
+/* the styles for the main content */
+
+main {
+
+clear: left;
+
+}
+
+/* the styles for the section */
+
+section {
+
+width: 575px;
+
+float: right;
+
+padding: 0 20px 20px 20px;
+
+}
+
+section h1 {
+
+font-size: 150%;
+
+padding: .5em 0 .25em 0;
+
+margin: 0; /* If you remove this, the margins in normalize.css will be applied. */
+
+
+}
+
+section h2 {
+
+color: #800000;
+
+font-size: 130%;
+
+padding: .5em 0 .25em 0;
+
+}
+
+section p {
+
+padding-bottom: .5em;
+
+}
+
+section blockquote {
+
+padding: 0 2em;
+
+font-style: italic;
+
+}
+
+section ul {
+
+padding: 0 0 .25em 1.25em;
+
+}
+
+section li {
+
+padding-bottom: .35em;
+
+}
+
+
+/* the styles for the article */
+
+article {
+
+padding: .5em 0;
+
+
+
+}
+
+article h2 {
+
+padding-top: 0;
+
+}
+
+article h3 {
+
+font-size: 105%;
+
+padding-bottom: .25em;
+
+}
+
+
+/* the styles for the aside */
+
+aside {
+
+width: 215px;
+
+float: left;
+
+padding: 0 0 20px 20px;
+
+}
+
+aside h2 {
+
+color: #800000;
+
+font-size: 130%;
+
+padding: .5em 0 .25em 0;
+
+}
+
+aside h3 {
+
+font-size: 105%;
+
+padding-bottom: .25em;
+
+}
+
+aside img {
+
+padding-bottom: 1em;
+
+}
+
+/* the styles for the footer */
+
+footer {
+
+background-color: darkslategrey;
+
+clear: both;
+
+}
+
+footer p {
+
+text-align: center;
+
+color: white;
+
+padding: 1em 0;
+
+}
+
+a {
+    text-decoration: none;
+}

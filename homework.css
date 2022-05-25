@@ -1,0 +1,167 @@
+
+h2{
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0pxw 10px 10px;
+    box-sizing:border-box;
+    width: 600px;
+    height: 300px;
+        text-align: center;
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    right: 29%;
+    font-size: 32px;
+}
+
+p{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 600px;
+    height: 300px;
+        text-align: center;
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    right: 29%;
+    font-size: 32px;
+    
+   
+}
+
+#homework2part2{
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 600px;
+    height: 300px;
+        text-align: center;
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    right: 29%;
+    font-size: 32px;
+    
+}
+
+#homework2Extra{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-sizing:border-box;
+    width: 600px;
+    height: 300px;
+        text-align: center;
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    right: 29%;
+    font-size: 32px;
+
+}
+
+#backhome{
+      font-family: 'Alegreya Sans SC';
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-size: 22px;
+  color: black;
+}
+#ET{
+    position: absolute;
+top: 2%;
+    left: %;
+}
+
+.backToHomework2 {
+    font-family: 'Alegreya Sans SC';
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    font-size: 22px;
+  color: black;
+  background-color: aquamarine;;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 149, 181);
+   
+
+}
+
+h1 {
+    color: blue;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+	text-align: right;
+	margin-right: 0.5em;
+}
+
+#form{
+    border: 2px blue;
+    box-sizing:border-box;
+    width: 600px;
+    height: 300px;
+        text-align: center;
+    font-family: 'Alegreya Sans SC';
+  position: absolute;
+    right: 29%;
+    font-size: 32px;
+}
+#form2{
+  width: 100%;;
+  height:auto;
+  border: 5px solid blue;
+  box-sizing: border-box;
+      text-align: center;
+  font-family: 'Alegreya Sans SC';
+position: relative;
+  font-size: 28px;
+
+}
+
+table, th, td {
+    border: 3px solid;
+   font-size: 20px;
+    
+  }
+
+
+  #messageA{
+
+    position: absolute;
+    left: 50%;
+    bottom:80%;
+    width: 100%;
+    font-size: 20px;
+  }
+  #message3{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    width: 100%;
+    font-size: 20px;
+  }
+  #button{
+    color: red;  
+    background-color: blue;
+  }
+  #userInput:focus{
+      background-color: yellow;
+  }
+  #userInput:hover{
+    background-color: yellow;
+}
+#foreach{
+  color: red;
+ 
+}
+#leftdiv{
+  float: left;
+
+}
+#rightdiv{
+  display: inline-block;
+}

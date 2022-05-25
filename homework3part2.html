@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Homework3Part2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Homework display.">
+    <link rel="stylesheet" href="homework.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" />
+</head>
+
+<body>
+
+     <a id ="backhome" href="index.html">E.T , Home !</a>
+    <a href ="index.html"> <img alt="ET Go back home" id ="ET" src="E.T.png" width="80" height ="70"></a>
+    <a class="backToHomework2" href="homework3.html">Back To Homework 3</a>
+    <h2>Homework3Part2</h2>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+      
+        
+        <form action="" method="get" id ="form2">
+     <div id ="errorBox">   
+         <h3 id ="errormsg"></h3>     
+        <h3 id = errorMsg1></h3>
+        <h3 id = errorMsg2></h3>
+        <h3 id = errorMsg3></h3>
+        <h3 id = errorMsg4></h3>
+    </div>
+
+        <br>
+            
+        <div>
+            <label for="input" id ="name">Seller's Name : </label>
+            <input type="text" id="nameInput">
+        </div>
+<div id ="foreach">
+    For Each Item , Please Type The Qyantity Sold By The Seller !
+</div>
+            <div>
+                <label for="input" id ="item1">Item 1 :</label>
+                <input type="text" id="itm1">
+            </div>
+            <div>
+                <label for="input"  id ="item2">Item 2 :</label>
+                <input type="text" id="itm2">
+            </div>
+            <div>
+                <label for="input" id ="item3"> Item 3 :</label>
+                <input type="text" id="itm3">
+            </div>
+            <div>
+                <label for="input" id ="item4"> Item 4 :</label>
+                <input type="text" id="itm4">
+            </div>
+            <div>
+            
+                <label>&nbsp;</label>
+                <input type="button" id="calculate" value="Submit">
+                <button type = "button" id = "clear">Clear Form</button>
+                
+            </div>
+        <div id ="rightleftdiv">
+            <div id ="leftdiv">            
+                <div>
+                    <label for="input" > Item#  Price</label>
+                    <input disabled value="Qty Sold">    
+                </div>
+
+                <div>
+                <label for="input" id ="Qty1">1 20.99$</label>
+                <input disabled type="text" id="fn1">
+            </div>
+            <div>
+                <label for="input" id ="Qty2">2 12.75$</label>
+                <input disabled type="text" id="fn2">
+            </div>
+            <div>
+                <label for="input" id ="Qty3">3 &nbsp; 9.95$</label>
+                <input disabled type="text" id="fn3">
+            </div>
+            <div>
+                <label for="input" id ="Qty4">4 35.89$</label>
+                <input disabled type="text" id="fn4">
+            </div>
+        </div>
+        <div id ="rightdiv">           
+            <div>
+                <label for="input"> Total $</labeld>
+                
+            </div> 
+            <div>
+            
+            <input disabled type="text" id="total1">
+        </div>
+        <div>
+            
+            <input disabled type="text" id="total2">
+        </div>
+        <div>
+            
+            <input disabled type="text" id="total3">
+        </div>
+        <div>
+            
+            <input disabled type="text" id="total4">
+        </div>
+        <div>
+         
+            <input disabled type="text" id="totalAmount" value="Total Amount">
+        </div>
+        <div>
+            
+            <input disabled type="text" id="totalWeekly" value="Total Weekly Earnings">
+        </div>
+    </div>
+    </div>
+            
+            <div id = "textBox" >
+               <div id = "textbox"></div>
+               
+            </div>
+            
+            
+        </form>
+
+       
+    
+    <script src= "scriptHW3P2.js"></script>
+</body>
+</html>
